@@ -47,6 +47,7 @@ job "pocapp" {
 			interval = "5m"
 			attempts = 10
 			delay = "25s"
+			mode = "delay"
 		}
 
 		# Define a task to run
